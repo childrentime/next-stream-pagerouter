@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import { Scripts } from "./_scripts";
 
 export default function Document() {
   return (
@@ -6,6 +7,7 @@ export default function Document() {
       <Head />
       <body>
         <Main />
+        {/* <Scripts/> */}
         <NextScript />
       </body>
     </Html>
